@@ -3,7 +3,7 @@ name: Copyright Preamble
 on:
   push:
     branches:
-      - master
+      - main
       - development
 
 jobs:
