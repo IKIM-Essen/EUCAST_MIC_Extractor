@@ -1,3 +1,8 @@
+# Copyright 2025 Julian Welling Institute for AI in Medicine (IKIM) 
+# Licensed under the MIT License
+# This file may not be copied, modified, or distributed
+# except according to those terms.
+
 import pandas as pd
 from openpyxl import load_workbook
 import re
