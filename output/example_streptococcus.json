@@ -1,0 +1,427 @@
+[
+    {
+        "Name": "Benzylpenicillin ",
+        "S <=": "0.25",
+        "R >": "0.25"
+    },
+    {
+        "Name": "Benzylpenicillin",
+        "S <=": "0.125",
+        "R >": "0.125"
+    },
+    {
+        "Name": "Ampicillin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Ampicillin-sulbactam",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Amoxicillin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Amoxicillin-clavulanic acid",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Piperacillin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Piperacillin-tazobactam",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Ticarcillin-clavulanic acid",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Temocillin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Phenoxymethylpenicillin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Oxacillin ",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cloxacillin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Dicloxacillin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Flucloxacillin ",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Mecillinam oral (pivmecillinam) ",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Cefaclor",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefadroxil",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefalexin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefazolin",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefepime",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefiderocol",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Cefixime",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Cefotaxime",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefoxitin",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Cefpodoxime",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Ceftaroline",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Ceftazidime",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Ceftazidime-avibactam",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Ceftibuten",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Ceftobiprole",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Ceftolozane-tazobactam",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Ceftriaxone",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefuroxime iv",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Cefuroxime oral",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Doripenem",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Ertapenem",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Imipenem",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Imipenem-relebactam",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Meropenem",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Meropenem-vaborbactam",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Aztreonam",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Ciprofloxacin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Delafloxacin",
+        "S <=": "0.03",
+        "R >": "0.03"
+    },
+    {
+        "Name": "Levofloxacin",
+        "S <=": "0.001",
+        "R >": "2"
+    },
+    {
+        "Name": "Moxifloxacin",
+        "S <=": "0.5",
+        "R >": "0.5"
+    },
+    {
+        "Name": "Nalidixic acid (screen only)",
+        "S <=": "NA",
+        "R >": "NA"
+    },
+    {
+        "Name": "Norfloxacin ",
+        "S <=": "NA",
+        "R >": "NA"
+    },
+    {
+        "Name": "Ofloxacin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Amikacin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Gentamicin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Netilmicin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Tobramycin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Dalbavancin",
+        "S <=": "0.125",
+        "R >": "0.125"
+    },
+    {
+        "Name": "Oritavancin",
+        "S <=": "0.25",
+        "R >": "0.25"
+    },
+    {
+        "Name": "Teicoplanin",
+        "S <=": "2",
+        "R >": 2
+    },
+    {
+        "Name": "Telavancin",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Vancomycin",
+        "S <=": "2",
+        "R >": 2
+    },
+    {
+        "Name": "Azithromycin",
+        "S <=": "0.25",
+        "R >": "0.25"
+    },
+    {
+        "Name": "Clarithromycin",
+        "S <=": "0.25",
+        "R >": "0.25"
+    },
+    {
+        "Name": "Erythromycin",
+        "S <=": "0.25",
+        "R >": "0.25"
+    },
+    {
+        "Name": "Roxithromycin",
+        "S <=": "0.5",
+        "R >": "0.5"
+    },
+    {
+        "Name": "Clindamycin",
+        "S <=": "0.5",
+        "R >": "0.5"
+    },
+    {
+        "Name": "Quinupristin-dalfopristin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Doxycycline",
+        "S <=": "1",
+        "R >": "1"
+    },
+    {
+        "Name": "Eravacycline",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Minocycline",
+        "S <=": "0.5",
+        "R >": "0.5"
+    },
+    {
+        "Name": "Tetracycline",
+        "S <=": "1",
+        "R >": "1"
+    },
+    {
+        "Name": "Tigecycline",
+        "S <=": "0.125",
+        "R >": "0.125"
+    },
+    {
+        "Name": "Linezolid",
+        "S <=": "2",
+        "R >": 2
+    },
+    {
+        "Name": "Tedizolid",
+        "S <=": "0.5",
+        "R >": "0.5"
+    },
+    {
+        "Name": "Chloramphenicol",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Colistin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Daptomycin",
+        "S <=": "1",
+        "R >": "1"
+    },
+    {
+        "Name": "Fosfomycin iv",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Fosfomycin oral",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Fusidic acid",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Lefamulin",
+        "S <=": "IE",
+        "R >": "IE"
+    },
+    {
+        "Name": "Metronidazole",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Nitrofurantoin ",
+        "S <=": "64",
+        "R >": 64
+    },
+    {
+        "Name": "Nitroxoline",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Rifampicin",
+        "S <=": "0.06",
+        "R >": "0.06"
+    },
+    {
+        "Name": "Spectinomycin",
+        "S <=": "-",
+        "R >": "-"
+    },
+    {
+        "Name": "Trimethoprim (uncomplicated UTI only) ",
+        "S <=": "Note",
+        "R >": "Note"
+    },
+    {
+        "Name": "Trimethoprim-sulfamethoxazole",
+        "S <=": "1",
+        "R >": "2"
+    }
+]

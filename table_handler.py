@@ -1,12 +1,6 @@
-# Copyright 2025 Julian Welling Institute for AI in Medicine (IKIM) 
-# Licensed under the MIT License
-# This file may not be copied, modified, or distributed
-# except according to those terms.
-
-import pandas as pd
 from openpyxl import load_workbook
+import pandas as pd
 import re
-from json import loads, dump
 
 def load_raw_workbook(path):
     # load
@@ -79,15 +73,3 @@ def shrink_clean_table(input_table):
         output_table['R >'] = output_table['R >'].map(lambda x: re.sub(r"[()]", "", x) if isinstance(x, str) else x)
 
         return output_table
-
-def save_as_json(input_table, path):
-    vanilla_json = input_table.to_json(orient="records")
-    parsed_json = loads(vanilla_json)
-    with open(path, "w", encoding="utf-8") as json_file: dump(parsed_json, json_file, ensure_ascii=False, indent=4)
-     
-
-raw_workbook = load_raw_workbook('resources/v_12.0_Breakpoint_Tables.xlsx')
-raw_table = raw_workbook["Streptococcus A,B,C,G"]
-mic_table = set_MIC_index(raw_table)
-shrunk_table = shrink_clean_table(mic_table)
-save_as_json(shrunk_table, "output/shrunk_table.json")
