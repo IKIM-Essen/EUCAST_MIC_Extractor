@@ -53,7 +53,7 @@ This script is provided under the MIT License.
 - Error: Sheet not found
   If you get an error like Sheet 'Streptococcus A,B,C,G' not found in the workbook, ensure that the sheet name you provided is exactly correct and exists in the Excel file.
 
-## Notes:
+## Notes
 
 Some information from the Excel file will be removed. These include:
 
