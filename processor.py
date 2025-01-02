@@ -7,7 +7,7 @@ from json import loads, dump
 import argparse
 import os
 
-from table_handler import load_raw_workbook, set_MIC_index, shrink_clean_table
+from table_handler import load_raw_table, set_MIC_index, shrink_clean_table
 
 
 
@@ -22,10 +22,7 @@ def save_as_json(input_table, path):
     with open(path, "w", encoding="utf-8") as json_file: dump(parsed_json, json_file, ensure_ascii=False, indent=4)
 
 def process(input_path, sheet_name, output_path):
-    raw_workbook = load_raw_workbook(input_path)
-    if sheet_name not in raw_workbook:
-        raise ValueError(f"Sheet '{sheet_name}' not found in the workbook.")
-    raw_table = raw_workbook[sheet_name]
+    raw_table = load_raw_table(input_path, sheet_name)
     mic_table = set_MIC_index(raw_table)
     shrunk_table = shrink_clean_table(mic_table)
     save_as_json(shrunk_table, output_path)

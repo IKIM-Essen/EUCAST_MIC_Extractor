@@ -277,7 +277,7 @@
     {
         "Name": "Teicoplanin",
         "S <=": "2",
-        "R >": 2
+        "R >": "2"
     },
     {
         "Name": "Telavancin",
@@ -287,7 +287,7 @@
     {
         "Name": "Vancomycin",
         "S <=": "2",
-        "R >": 2
+        "R >": "2"
     },
     {
         "Name": "Azithromycin",
@@ -347,7 +347,7 @@
     {
         "Name": "Linezolid",
         "S <=": "2",
-        "R >": 2
+        "R >": "2"
     },
     {
         "Name": "Tedizolid",
@@ -397,7 +397,7 @@
     {
         "Name": "Nitrofurantoin ",
         "S <=": "64",
-        "R >": 64
+        "R >": "64"
     },
     {
         "Name": "Nitroxoline",
