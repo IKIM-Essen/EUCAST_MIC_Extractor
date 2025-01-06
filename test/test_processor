@@ -1,0 +1,13 @@
+from workflow import processor
+import unittest
+
+class TestProcessor(unittest.TestCase):
+    def test_sum(self):
+        value = 10 + 10
+        self.assertEqual(value, 20)
+    
+    def testProcess(self):
+        processor.process('resources/v_14.0_Breakpoint_Tables.xlsx', 'Streptococcus A,B,C,G', 'output/example_streptococcus_test.json')
+
+if __name__ == '__main__':
+    unittest.main()

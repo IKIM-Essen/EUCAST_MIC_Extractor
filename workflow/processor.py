@@ -2,12 +2,12 @@
 # Licensed under the MIT License
 # This file may be copied, modified, and distributed under the terms of the MIT License.
 
+
 from json import loads, dump
 import argparse
 import os
 
-from table_handler import load_raw_table, set_MIC_index, shrink_clean_table
-
+from workflow.table_handler import load_raw_table, set_MIC_index, shrink_clean_table
 
 
 def save_as_json(input_table, path):
