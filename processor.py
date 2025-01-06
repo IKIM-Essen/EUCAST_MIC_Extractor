@@ -2,11 +2,6 @@
 # Licensed under the MIT License
 # This file may be copied, modified, and distributed under the terms of the MIT License.
 
-# Copyright 2025 Julian Welling Institute for AI in Medicine (IKIM) 
-# Licensed under the MIT License
-# This file may not be copied, modified, or distributed
-# except according to those terms.
-
 from json import loads, dump
 import argparse
 import os
