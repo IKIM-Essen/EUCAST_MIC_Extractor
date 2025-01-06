@@ -1,7 +1,6 @@
-# Copyright 2025 Julian Welling Institute for AI in Medicine (IKIM) 
+# Copyright 2025 by Miriam Balzer & Julian Welling, University of Duisburg-Essen
 # Licensed under the MIT License
-# This file may not be copied, modified, or distributed
-# except according to those terms.
+# This file may be copied, modified, and distributed under the terms of the MIT License.
 
 from openpyxl import load_workbook
 import pandas as pd
