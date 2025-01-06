@@ -22,7 +22,7 @@ This Python script processes MIC (Minimum Inhibitory Concentration) tables from 
 ## Usage
 
 Use the code directly (Starting Point: preprocessor.process()) or run the script from the command line, use the following syntax:
-`python mic_processor.py <input_path> <sheet_name> <output_path>`
+`python workflow/processor.py <input_path> <sheet_name> <output_path>`
 
 ### Parameters:
 
@@ -32,7 +32,7 @@ Use the code directly (Starting Point: preprocessor.process()) or run the script
 
 ## Example
 
-`python processor.py resources/v_14.0_Breakpoint_Tables.xlsx "Streptococcus A,B,C,G" output/example_streptococcus.json`
+`python workflow/processor.py resources/v_14.0_Breakpoint_Tables.xlsx "Streptococcus A,B,C,G" output/example_streptococcus.json`
 
 This will:
 

@@ -2,12 +2,12 @@
 # Licensed under the MIT License
 # This file may be copied, modified, and distributed under the terms of the MIT License.
 
+
 from json import loads, dump
 import argparse
 import os
 
-from table_handler import load_raw_table, set_MIC_index, shrink_clean_table
-
+from workflow.table_handler import load_raw_table, set_MIC_index, shrink_clean_table
 
 
 def save_as_json(input_table, path):
@@ -20,11 +20,11 @@ def save_as_json(input_table, path):
     parsed_json = loads(vanilla_json)
     with open(path, "w", encoding="utf-8") as json_file: dump(parsed_json, json_file, ensure_ascii=False, indent=4)
 
-def process(input_path, sheet_name, output_path):
+def process(input_path, sheet_name):
     raw_table = load_raw_table(input_path, sheet_name)
     mic_table = set_MIC_index(raw_table)
     shrunk_table = shrink_clean_table(mic_table)
-    save_as_json(shrunk_table, output_path)
+    return shrunk_table
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process MIC tables from an Excel workbook.")
@@ -33,5 +33,6 @@ if __name__ == "__main__":
     parser.add_argument("output_path", type=str, help="Path to save the output JSON.")
     args = parser.parse_args()
 
-    process(args.input_path, args.sheet_name, args.output_path)
+    shrunk_table = process(args.input_path, args.sheet_name)
+    save_as_json(shrunk_table, args.output_path)
     print(f"JSON saved to {args.output_path}")
