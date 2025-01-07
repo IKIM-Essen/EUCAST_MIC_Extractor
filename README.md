@@ -1,3 +1,7 @@
+*Copyright 2025 by Miriam Balzer & Julian Welling, University of Duisburg-Essen*
+*Licensed under the MIT License*
+*This file may be copied, modified, and distributed under the terms of the MIT License.*
+
 # EUCAST MIC Extractor
 
 This Python script processes MIC (Minimum Inhibitory Concentration) tables from EUCAST xlsx files, specifically those in the format of breakpoint tables. The script extracts relevant data, processes it, and outputs the results as a JSON file.
