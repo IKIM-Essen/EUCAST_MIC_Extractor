@@ -25,7 +25,7 @@ This Python script processes MIC (Minimum Inhibitory Concentration) tables from 
 
 ## Usage
 
-Use the code directly (Starting Point: preprocessor.process()) or run the script from the command line, use the following syntax:
+Use the code directly (Starting Point: workflow/processor.process()) or run the script from the command line, use the following syntax:
 `python workflow/processor.py <input_path> <sheet_name> <output_path>`
 
 ### Parameters:
