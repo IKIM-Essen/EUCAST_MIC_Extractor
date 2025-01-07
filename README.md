@@ -1,6 +1,6 @@
-*Copyright 2025 by Miriam Balzer & Julian Welling, University of Duisburg-Essen*
-*Licensed under the MIT License*
-*This file may be copied, modified, and distributed under the terms of the MIT License.*
+*Copyright 2025 by Miriam Balzer & Julian Welling, University of Duisburg-Essen* <br />
+*Licensed under the MIT License* <br />
+*This file may be copied, modified, and distributed under the terms of the MIT License.* <br />
 
 # EUCAST MIC Extractor
 
@@ -45,10 +45,6 @@ This will:
 3. Save the cleaned and processed data as a JSON file to the output/example_streptococcus.json (or any custom path specified).
 
 You can find the example output file at output/example_streptococcus.json
-
-## License
-
-This script is provided under the MIT License.
 
 ## Troubleshooting
 
