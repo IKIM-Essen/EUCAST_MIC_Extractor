@@ -1,8 +1,7 @@
-*Copyright 2025 by Miriam Balzer & Julian Welling, University of Duisburg-Essen* <br />
-*Licensed under the MIT License* <br />
-*This file may be copied, modified, and distributed under the terms of the MIT License.* <br />
-
 # EUCAST MIC Extractor
+
+<a href="https://github.com/psf/black/blob/main/LICENSE"><img alt="License: MIT" src="https://black.readthedocs.io/en/stable/_static/license.svg"></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 
 This Python script processes MIC (Minimum Inhibitory Concentration) tables from [EUCAST](https://www.eucast.org/clinical_breakpoints) xlsx files, specifically those in the format of breakpoint tables. The script extracts relevant data, processes it, and outputs the results as a JSON file.
 
@@ -60,3 +59,9 @@ Some information from the Excel file will be removed. These include:
 - brackets -> Indicates that an effect as monotherapy has not been proven.
 - superscripts -> Link to further information
 - Empty MIC Values
+
+## Licence
+
+_Copyright 2025 by Miriam Balzer & Julian Welling, University of Duisburg-Essen_ <br />
+_Licensed under the MIT License_ <br />
+_This repository may be copied, modified, and distributed under the terms of the MIT License._ <br />
