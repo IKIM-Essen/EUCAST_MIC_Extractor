@@ -2,19 +2,22 @@
 # Licensed under the MIT License
 # This file may be copied, modified, and distributed under the terms of the MIT License.
 
-from workflow import processor
 import unittest
 import json
+from workflow import processor
+
 
 class TestProcessor(unittest.TestCase):
-    
-    def testProcess(self):
-        with open('output/example_streptococcus.json', 'r', encoding='utf-8') as file:
-            loadedTable = json.load(file)
-        generatedTable = processor.process('resources/v_14.0_Breakpoint_Tables.xlsx', 'Streptococcus A,B,C,G')
-        vanilla_json = generatedTable.to_json(orient="records")
+    def test_process(self):
+        with open("output/example_streptococcus.json", "r", encoding="utf-8") as file:
+            loaded_table = json.load(file)
+        generated_table = processor.process(
+            "resources/v_14.0_Breakpoint_Tables.xlsx", "Streptococcus A,B,C,G"
+        )
+        vanilla_json = generated_table.to_json(orient="records")
         parsed_json = json.loads(vanilla_json)
-        self.assertEqual(loadedTable, parsed_json)
+        self.assertEqual(loaded_table, parsed_json)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
