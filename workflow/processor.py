@@ -6,28 +6,20 @@
 from json import loads, dump
 import argparse
 import os
-
 from workflow.table_handler import load_raw_table, set_mic_index, shrink_clean_table
-
-
 def save_as_json(input_table, path):
     # Ensure the output directory exists
     output_dir = os.path.dirname(path)
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)  # Create the directory if it doesn't exist
-
     vanilla_json = input_table.to_json(orient="records")
     parsed_json = loads(vanilla_json)
     with open(path, "w", encoding="utf-8") as json_file:
         dump(parsed_json, json_file, ensure_ascii=False, indent=4)
-
-
 def process(input_path, sheet_name):
     raw_table = load_raw_table(input_path, sheet_name)
     mic_table = set_mic_index(raw_table)
     return shrink_clean_table(mic_table)
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Process MIC tables from an Excel workbook."
