@@ -6,7 +6,7 @@
 from json import loads, dump
 import argparse
 import os
-from workflow.table_handler import load_raw_table, set_mic_index, shrink_clean_table
+from table_handler import load_raw_table, set_mic_index, shrink_clean_table
 
 
 def save_as_json(input_table, path):
