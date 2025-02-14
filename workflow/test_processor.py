@@ -9,12 +9,10 @@ import processor
 
 class TestProcessor(unittest.TestCase):
     def test_process(self):
-        with open(
-            "../output/example_streptococcus.json", "r", encoding="utf-8"
-        ) as file:
+        with open("output/example_streptococcus.json", "r", encoding="utf-8") as file:
             loaded_table = json.load(file)
         generated_table = processor.process(
-            "../resources/v_14.0_Breakpoint_Tables.xlsx", "Streptococcus A,B,C,G"
+            "resources/v_14.0_Breakpoint_Tables.xlsx", "Streptococcus A,B,C,G"
         )
         vanilla_json = generated_table.to_json(orient="records")
         parsed_json = json.loads(vanilla_json)
