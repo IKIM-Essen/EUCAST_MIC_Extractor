@@ -4,7 +4,7 @@
 
 import unittest
 import json
-from workflow import processor
+import processor
 
 
 class TestProcessor(unittest.TestCase):
